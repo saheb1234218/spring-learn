@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class controller {
 
-		@GetMapping("/welcome")
+		@GetMapping("/welcomes")
 		public String getres() {
 			return "Hi APurba Welcome to Jenkins";
 		}
